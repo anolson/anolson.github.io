@@ -3,11 +3,13 @@ a {color:#3D6EFF; text-decoration:none;}
 h2 {margin:5px 0; font-weight:lighter; font-size:38px; line-height:1;}
 img {border:0;}
 ul {list-style-type:none; padding-left:20px;}
-
+table{text-align:center;}
 
 h3 {font-weight:normal; line-height:1;}
 .title {padding: 5px 0 0 0; vertical-align:bottom;}
 .image {text-align:center;}
+
+.thumbnail img {border:1px solid #CCC; padding:5px;}
 
 #site {width: 400px; margin: 0 auto;}
 
