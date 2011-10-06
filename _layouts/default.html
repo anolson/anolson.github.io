@@ -1,22 +1,18 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <meta name="author" content="Andrew Olson" />
-   <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
-   <title>Andrew Olson</title>
-</head>
-<body>
- 
-<div id="site">
-  <div class="title">
-    <h2>{{ page.title }}</h2>
-  </div>
+<html lang="en">
+  <head>
+     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+     <meta name="author" content="Andrew Olson" />
+     <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
+     <title>Andrew Olson</title>
+  </head>
+  <body id="intro">
+    <section class="center-text">
+      <h1>{{ page.title }}</h1>
   
-  {{ content }}
+      {{ content }}
+    </section>
   
-  {% include footer.html %}
-</div>
- 
-</body>
+    {% include footer.html %} 
+  </body>
 </html>

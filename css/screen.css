@@ -1,18 +1,29 @@
-body {font-size:14px; font:normal 16px "Helvetica Neue"; padding-top:50px; color:#333; background-color:#F5F5F5;}
-a {color:#3D6EFF; text-decoration:none;}
-h2 {margin:5px 0; font-weight:lighter; font-size:38px; line-height:1;}
-img {border:0;}
-ul {list-style-type:none; padding-left:20px;}
-table{text-align:center;}
+body {font-size:14px; font:normal 18px "Helvetica Neue", Helvetica; padding-top:100px; color:#ddd; background-color:#555;}
+a {color:#9df; text-decoration:none;}
 
-h3 {font-weight:normal; line-height:1;}
+footer{margin-top:50px;}
+
+h1{color:#333; font-size:110px; margin:0; text-shadow: 0 2px 3px #5e5e5e;}
+h2{font-weight:lighter; font-size:38px; margin:0;}
+img {border:0;}
+
+nav {font-size:16px;}
+nav ul {list-style-type: none;  padding:0;}
+nav li {display:inline; padding:0 20px;}
+nav a {text-transform:uppercase; color:#FFF;}
+
+nav, section{margin:0px auto; width:800px;}
+
+table{text-align:center;}
+ul {list-style-type:none; padding-left:20px;}
+
+
+#example {margin:0px auto; width:400px;}
+#zoom {color:#555;}
+
 .title {padding: 5px 0 0 0; vertical-align:bottom;}
 .image {text-align:center;}
+.thumbnail img {border:1px solid #999; padding:5px;}
+.center-text {text-align:center;}
 
-.thumbnail img {border:1px solid #CCC; padding:5px;}
 
-#site {width: 400px; margin: 0 auto;}
-
-#footer {border-top: 1px solid #999; padding: 5px 0; color:#999; font-size:12px;}
-#footer .contact {float:left;}
-#footer .links{float:right;}
