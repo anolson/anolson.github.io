@@ -19,11 +19,14 @@ ul {list-style-type:none; padding-left:20px;}
 
 
 #example {margin:0px auto; width:400px;}
+#example .details {font-size: 12px}
+
 #zoom {color:#555;}
 
 .title {padding: 5px 0 0 0; vertical-align:bottom;}
 .image {text-align:center;}
 .thumbnail img {border:1px solid #999; padding:5px;}
 .center-text {text-align:center;}
+
 
 

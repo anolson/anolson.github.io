@@ -1,0 +1,74 @@
+---
+date: 2010-01-01
+layout: example
+title: Course Analytics
+permalink: course_analytics.html
+category: examples-rails
+---
+
+<p>I integrated third-party usage data (from <a href="http://coursesmart.com">CourseSmart</a>) into <a href="http://soomopublishing.com">Soomo's</a> existing course analysis software - <a href="http://soomopublishing.com/learninganalytics/">Course Analytics</a>.</p>
+
+<table border="0" cellspacing="5" cellpadding="5" width="100%">
+  <tr>
+    <td>
+      <div class="thumbnail">
+        <a href="#index"><img src="images/course_analytics/thumbnails/index.png"/></a>
+      </div>
+    </td>
+    <td>
+      <div class="thumbnail">
+        <a href="#hover"><img src="images/course_analytics/thumbnails/hover.png"/></a>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <div class="thumbnail">
+        <a href="#plot"><img src="images/course_analytics/thumbnails/plot.png"/></a>
+      </div>
+    </td>
+    <td>
+      <div class="thumbnail">
+        <a href="#integrated"><img src="images/course_analytics/thumbnails/integrated.png"/></a>
+      </div>
+    </td>
+  </tr>
+</table>
+<div class="details">
+  <h4>Overview of the data import process</h4>
+  <ol>
+    <li>Receive and handle notification of new usage data.</li>
+    <li>Run Resque job to download and process xml data files.</li>
+    <li>Persist usage data to a PostgreSQL database.</li>
+    <li>Present the data in a simple manner that integrates into other parts of their interface.</li>
+  </ol>
+
+  <h4>Technologies used</h4>
+  <ul>
+    <li>Rails 3</li>
+    <li>CoffeeScript</li>
+    <li>Resque</li>
+    <li>PostgreSQL</li>
+    <li>Heroku</li>
+  </ul>
+</div>
+
+<div id="index" style="display: none;">
+  <img src="images/course_analytics/index.png"/>
+  <p>Index of all CourseSmart texts</p>
+</div>
+
+<div id="hover" style="display: none;">
+  <img src="images/course_analytics/hover.png"/>
+  <p>Hover for usage details.</p>
+</div>
+
+<div id="plot" style="display: none;">
+  <img src="images/course_analytics/plot.png"/>
+  <p>Historical Plot</p>
+</div>
+
+<div id="integrated" style="display: none;">
+  <img src="images/course_analytics/integrated.png"/>
+  <p>Integrated with other course data.</p>
+</div>
