@@ -6,11 +6,11 @@
    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/scriptaculous/1.8.3/scriptaculous.js"></script>
    <script type="text/javascript" src="/javascript/fancyzoom.min.js"></script>
-   <script type="text/javascript"> 
+   <script type="text/javascript">
      $(document).observe('dom:loaded', function() {
       FancyZoomBox.directory = '/images/fancyzoom'; // no need for trailing slash
-       $$('div.thumbnail a').each(function(el) { new FancyZoom(el, {width:800, height:600}); });
-       $$('div.mobile a').each(function(el) { new FancyZoom(el, {width:320, height:480}); });
+       $$('#thumbnails li a').each(function(el) { new FancyZoom(el, {width:800, height:600}); });
+       $$('#thumbnails li.mobile a').each(function(el) { new FancyZoom(el, {width:320, height:480}); });
      });
    </script>
    <link rel="stylesheet" href="/css/screen.css" type="text/css" media="screen, projection" />
@@ -19,12 +19,12 @@
 <body>
   <section id="example">
     <h2>{{ page.title }}</h2>
-   
+
     {{ content }}
-  
+
     <p><a href="examples.html">Back</a></p>
   </section>
 
-  {% include footer.html %} 
+  {% include footer.html %}
 </body>
 </html>

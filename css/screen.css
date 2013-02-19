@@ -1,31 +1,32 @@
-body {font-size:14px; font:normal 18px "Helvetica Neue", Helvetica; padding-top:100px; color:#ddd; background-color:#555;}
-a {color:#9df; text-decoration:none;}
+body {font-size:14px; font:normal 18px "Helvetica Neue", Helvetica; padding-top:100px; color:#333; background-color:#fff;}
+a {color:#48c; text-decoration:none;}
 
 footer{margin-top:50px;}
 
-h1{color:#333; font-size:110px; margin:0; text-shadow: 0 2px 3px #5e5e5e;}
+h1{font-size:110px; margin:0;}
 h2{font-weight:lighter; font-size:38px; margin:0;}
+h5{margin: 5px 0}
 img {border:0;}
 
 nav {font-size:16px;}
 nav ul {list-style-type: none;  padding:0;}
 nav li {display:inline; padding:0 20px;}
-nav a {text-transform:uppercase; color:#FFF;}
+nav a {text-transform:uppercase;}
+nav, section{margin:0px auto; width:820px;}
 
-nav, section{margin:0px auto; width:800px;}
-
-table{text-align:center;}
 ul {list-style-type:none; padding-left:20px;}
 
+#example {margin:0px auto; width:820px;}
+#example .details {font-size: 14px;}
+#thumbnails {margin:0; padding:0;}
+#thumbnails li {display: inline-block; padding: 0 0 10px 38px;}
+#thumbnails li:nth-child(4n+1) {padding-left:0;}
 
-#example {margin:0px auto; width:400px;}
-#example .details {font-size: 14px}
-
+#thumbnails img {border:10px solid #eee;}
 #zoom {color:#555;}
-
+#zoom p {text-align:center;}
 .title {padding: 5px 0 0 0; vertical-align:bottom;}
 .image {text-align:center;}
-.thumbnail img {border:1px solid #999; padding:5px;}
 .center-text {text-align:center;}
 
 

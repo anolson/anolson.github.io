@@ -1,41 +1,30 @@
 ---
-date: 2010-01-01
 layout: example
 title: Heyo
 permalink: heyo.html
-category: examples-rails
+category: rails
+order: 1
+thumbnail: "images/heyo/home-thumbnail.png"
 ---
 
 <p>Use <a href="http://heyo.com">Heyo</a> to create and share plans with friends, and collaborate with your friends to decide where to hang out!</p>
 
 <p>The founders of <a href="http://heyo.com">Heyo</a> started with iOS and Android.  I created a mobile web version that complemented their existing apps.</p>
 
-<table border="0" cellspacing="5" cellpadding="5" width="100%">
-  <tr>
-    <td>
-      <div class="mobile thumbnail">
-        <a href="#home"><img src="images/heyo/home-thumbnail.png"/></a>
-      </div>
-    </td>
-    <td>
-      <div class="mobile thumbnail">
-        <a href="#upcoming"><img src="images/heyo/upcoming-thumbnail.png"/></a>  
-      </div>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <div class="mobile thumbnail">
-        <a href="#places"><img src="images/heyo/places-thumbnail.png"/></a>
-      </div>
-    </td>
-    <td>
-      <div class="mobile thumbnail">
-        <a href="#me"><img src="images/heyo/me-thumbnail.png"/></a>  
-      </div>
-    </td>
-  </tr>
-</table>
+<ul id="thumbnails">
+  <li class="mobile">
+    <a href="#home"><img src="images/heyo/home-thumbnail.png"/></a>
+  </li>
+  <li class="mobile">
+    <a href="#upcoming"><img src="images/heyo/upcoming-thumbnail.png"/></a>
+  </li>
+  <li class="mobile">
+    <a href="#places"><img src="images/heyo/places-thumbnail.png"/></a>
+  </li>
+  <li class="mobile">
+    <a href="#me"><img src="images/heyo/me-thumbnail.png"/></a>
+  </li>
+</ul>
 
 <div id="home" style="display: none;">
   <img src="images/heyo/home.png"/>
