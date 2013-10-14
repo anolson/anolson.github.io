@@ -1,4 +1,4 @@
-body {font-size:14px; font:normal 18px "Helvetica Neue", Helvetica; padding-top:100px; color:#333; background-color:#fff;}
+body {font-size:14px; font:normal 18px "Helvetica Neue", Helvetica; padding-top:40px; color:#333; background-color:#fff;}
 a {color:#48c; text-decoration:none;}
 
 footer{margin-top:50px;}
@@ -28,6 +28,11 @@ ul {list-style-type:none; padding-left:20px;}
 .title {padding: 5px 0 0 0; vertical-align:bottom;}
 .image {text-align:center;}
 .center-text {text-align:center;}
+.gravatar {
+  border-radius: 110px;
+  -webkit-border-radius: 110px;
+  -moz-border-radius: 110px;
+}
 
 
 
