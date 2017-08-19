@@ -1,0 +1,7 @@
+title: Andrew Olson
+url: "https://anolson.github.io"
+exclude:
+  - bin
+  - Gemfile
+  - Gemfile.lock
+  - README.md
