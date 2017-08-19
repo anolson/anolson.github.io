@@ -1,13 +1,13 @@
 # https://anolson.github.io
 
-This contains all the content for https://anolson.github.io
+This repo contains all the content for https://anolson.github.io
 
 ## Setup
 
 Clone the repo:
 
 ```
-$ git@github.com:anolson/anolson.github.io.git
+$ git clone git@github.com:anolson/anolson.github.io.git
 ```
 And then run:
 
