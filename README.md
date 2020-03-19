@@ -7,7 +7,7 @@ This repo contains all the content for https://anolson.org
 Clone the repo:
 
 ```
-$ git clone git@github.com:anolson/anolson.org.git
+$ git clone git@github.com:anolson/anolson.github.io.git
 ```
 And then run:
 
