@@ -28,8 +28,8 @@ ul {list-style-type:none; padding-left:20px;}
 .title {padding: 5px 0 0 0; vertical-align:bottom;}
 .image {text-align:center;}
 .center-text {text-align:center;}
-.gravatar {
-  border-radius: 110px;
-  -webkit-border-radius: 110px;
-  -moz-border-radius: 110px;
+.avatar {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
 }
