@@ -21,4 +21,4 @@ jobs:
       run: bundle install
 
     - name: Build site
-      run: bin/jekyll
+      run: bin/jekyll build
